@@ -3,30 +3,16 @@
 /* El color numero 7 es el que se ha ocupado */
 .color-7 { color: #F2EFC2; } 
 .color-1 { color: #47A603; }
-.color-2 { color: #3B7302; }
-.color-3 { color: #067302; }
-.color-4 { color: #055902; }
 .color-5 { color: #37A603; }
-.color-6 { color: #95D904; }
-.color-8 { color: #BF7821; }
 .color-9 { color: #A64F03; }
-.color-10 { color: #61721B; }
-.color-11 { color: #393E06; }
-.color-12 { color: #DAA273; }
-.color-13 { color: #742608; }
-.color-14 { color: #230000; }
+.color-14 { color: #230000;}
 
 /* Fondos */
-/* Los tres primeros fondos son los funcionales */
 .background-1 { background-color: #d1d80b; }
 .background-3 { background-color: #D2B48C; }
 .background-5 { background-color: #549e42b6; }
-.background-4 { background-color: #734002; }
-.background-2 { background-color: #5A7302; }
-.background-6 { background-color: #034001; }
-.background-7 { background-color: #ebf64e; }
-.background-8 { background-color: #3C8C03; }
-.background-9 { background-color: #3B7302; }
+.background-a { background-color: #000000; }
+.background-4 { background-color: #d84f25; }
 .background-10 { background-color: #74BF04; }
 
 /* Fuentes */
@@ -34,7 +20,7 @@
 font-family: 'Combo', cursive;
 font-family: 'Fruktur', cursive;
 font-family: 'Miltonian Tattoo', cursive;
-font-family: 'Sofadi One', cursive;
+font-family: 'sans-serif';
  */
 
 body{
@@ -56,28 +42,16 @@ h1{
   }
 
 .logo{
-    border-radius: 20px;
     width: 10vw;
     height: 15vh;
 }
 
-.face{
-    width: 7vw;
-    height: 7vh;
-}
-
-.insta{
-    width: 7vw;
-    height: 7vh;
-}
-
-.twitter{
+.redes{
     width: 7vw;
     height: 7vh;
 }
 
 /* Hero */
-
 /* chefcito */
 .fondo{
     background: url("../img/chefcito.png") no-repeat;
@@ -90,6 +64,7 @@ h2{
     font-family: 'Combo', cursive;
     font-weight: bold;
     color: #022601;
+    text-shadow: 2px 2px 2px #60f01e;
 }
 
 hr{
@@ -110,25 +85,8 @@ p{
     clip-path: inset(3% 5% 7% 3%);
 }
 
-
-
 /* Carousel */
-
-.carousel{
-    height: 70%;
-}
-
-.flor{
-    width: 45vw;
-    height: 62vh;
-}
-
-.ramen{
-    width: 45vw;
-    height: 62vh;
-}
-
-.gusano{
+.imgcarrusel{
     width: 45vw;
     height: 64vh;
 }
@@ -140,42 +98,57 @@ p{
     width: 50px;
 }
 
-/* chefcito2 */
-.fondo2{
-    background: url("../img/cheff.png") no-repeat;
-    background-size: 25%;
-    background-position: 960px;
-}
-
-
-
 /* Cards */
-
-.carta{
-    border-radius: 10px;
-    box-shadow: 3px 3px 2px #067302;
+.h3sucursal{
+    font-family: 'Miltonian Tattoo', cursive;
+    text-shadow: 2px 2px 3px red;
 }
 
-.cartas{
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    align-self: flex-end;
-
+.vinetas{
+    list-style: '➽';
+    font-size: 15px;
 }
 
-/* viñetas */
-li {
-    list-style: none;
+.subvinetas{
+    list-style: '✽';
+    font-size: 15px;
 }
 
-li::before {
-    content: '↬';
-    font-size: 20px;
-    color: blue;
-
+.animate__animated.animate__backInLeft {
+    --animate-duration: 2s;
 }
 
+.animate__animated.animate__backInRight {
+    --animate-duration: 2s;
+}
+
+/* Sucursales */
+.mapa{
+    color: #230000;
+}
+
+h4{
+    font-family: 'sans-serif'; 
+}
+
+/* Footer */
+.fondopie{
+    background-image: url("../img/fondo-pie.jpg");
+    /* height: 300px; */
+    background-size: cover;
+    background-position: right;
+}
+
+h3{
+    font-family: 'Miltonian Tattoo', cursive;
+}
+
+h4{
+    font-family: 'Combo', cursive;
+    font-weight: bold;
+    color: #022601;
+    text-shadow: 2px 2px 2px #60f01e;
+}
 
 
 
